@@ -1,0 +1,61 @@
+* *::before *::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+  font-size: 100%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 100%;
+  font-weight: bolder;
+  max-width: 1000px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: brown;
+}
+#hello {
+  color: black;
+}
+#hello:hover {
+  color: orange;
+}
+#hello:active {
+  color: orange;
+}
+h1 {
+  color: green;
+  text-align: center;
+}
+
+p {
+  color: gray;
+}
+
+ul {
+  color: gray;
+  list-style: upper-latin;
+  text-align: left;
+}
+
+.box-model {
+  text-align: center;
+  background-color: blanchedalmond;
+  border: 10px solid snow;
+}
+.box2-model {
+  background-color: blanchedalmond;
+}
